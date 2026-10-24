@@ -1,0 +1,37 @@
+﻿# 鏋勫缓浜х墿
+*.class
+*.jar
+!gradle/wrapper/*.jar
+out/
+out-test/
+out-probe/
+out-wrapper/
+dist/
+build/
+bin/
+
+# 鎵撳寘杩涙彃浠剁殑娓告垙瀹㈡埛绔瓑澶т簩杩涘埗
+resources/
+
+# 鍚姩鍣ㄨ繍琛屾椂鏁版嵁
+.hmcl/
+.hmcl.json
+hmcl.json
+
+# 鏃ュ織
+*.log
+hs_err_pid*
+*.hprof
+
+# IDE
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
+
+# 绯荤粺
+.DS_Store
+Thumbs.db
+desktop.ini
