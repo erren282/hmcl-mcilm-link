@@ -1,19 +1,7 @@
 /*
- * Hello Minecraft! Launcher
- * Copyright (C) 2026 huangyuhui <huanghongxun2008@126.com> and contributors
+ * 更好的联机 —— 插件入口
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * 本插件是第三方独立作品，与 HMCL 官方无关。
  */
 package org.dsh.mcilm;
 
@@ -30,6 +18,10 @@ import org.jackhuang.hmcl.plugin.PluginMenuService;
 ///
 /// <p>The plugin contributes one tab to the launcher's multiplayer page, next to the
 /// built-in 联机大厅 entry.</p>
+///
+/// <p>The lobby and the EasyTier tunnel were tried and removed: the lobby needs a shared server
+/// that is reachable from the player's network, and nothing suitable was available. The room list
+/// sources stay in the repository should a server turn up later.</p>
 public class MciLmPlugin extends HmclPlugin {
 
     private MciLmPage page;

@@ -37,7 +37,6 @@ final class MciLmTab implements PluginMultiplayerTab {
     public String getTitle() {
         return "MciLm 联机";
     }
-
     @Override
     public SVG getIcon() {
         return SVG.PUBLIC;
